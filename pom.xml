@@ -6,7 +6,7 @@
 
     <groupId>me.wintertaledevs</groupId>
     <artifactId>ClickBench</artifactId>
-    <version>1.0</version>
+    <version>1.5</version>
     <packaging>jar</packaging>
 
     <name>ClickBench</name>
@@ -49,7 +49,7 @@
                 <artifactId>maven-jar-plugin</artifactId>
                 <version>2.3.1</version>
                 <configuration>
-                    <outputDirectory>C:\Users\SBS\Desktop\Minecraft\Servers\PluginTesting\1.18\plugins</outputDirectory>
+                    <outputDirectory>C:\Users\SBS\Desktop\Minecraft\Servers\PluginTesting\1.8.8\plugins</outputDirectory>
                 </configuration>
             </plugin>
         </plugins>

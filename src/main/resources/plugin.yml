@@ -1,0 +1,10 @@
+name: ClickBench
+version: '${project.version}'
+main: me.wintertaledevs.clickbench.ClickBench
+api-version: 1.18
+authors: [ Yessify ]
+description: Open up the crafting table without placing it by clicking it in your inventory!
+commands:
+  clickbench:
+    description: Used for toggling ClickBench features ON/OFF
+    aliases: cb
