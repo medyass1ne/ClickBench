@@ -27,10 +27,10 @@ public class Events implements Listener {
         Inventory currentInventory = player.getOpenInventory().getTopInventory();
         if(currentInventory.getType() == InventoryType.WORKBENCH || item == null) return;
         if(item.getType() == Material.CRAFTING_TABLE) {
+            e.setCursor(null);
             if((Utils.GetPlayerData(player, "enabled") != null && (boolean)Utils.GetPlayerData(player, "enabled")) && plugin.config.GetConfig().getBoolean("enabled")) {
                 e.setCancelled(true);
-                Inventory workbench = Bukkit.createInventory(player, InventoryType.WORKBENCH);
-                player.openInventory(workbench);
+                player.openWorkbench(null, true);
             }
         }
     }
